@@ -1,0 +1,26 @@
+{
+  "name": "sprint_one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelArMe/sprint_one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelArMe/sprint_one/issues"
+  },
+  "homepage": "https://github.com/EmmanuelArMe/sprint_one#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1",
+    "bootstrap-icons": "^1.5.0",
+    "jquery": "^3.6.0"
+  }
+}
