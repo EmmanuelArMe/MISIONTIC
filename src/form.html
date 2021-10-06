@@ -5,38 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/src/css/index.css" type="text/css">
+    <link rel="stylesheet" href="/src/css/form.css" type="text/css">
     <title>Formulario</title>
 </head>
 <body>
+	<a href="menu.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+		<path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
+	</svg></a>
     <div class="row g-5 align-items-center" id="formRegistro">
         <h1>Formulario de Registro</h1>
         <form>
             <div class="mb-3">
-				<label class="form-label">Nombre</label>
-				<input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+				<label class="form-label" title="nombre" for="nombre">Nombre</label>
+				<input type="text" class="form-control" id="nombre" title="nombre" placeholder="Ingrese su nombre">
 			</div>
 			<div class="mb-3">
-				<label class="form-label">Apellido</label>
-				<input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+				<label class="form-label" title="apellido" for="apellido">Apellido</label>
+				<input type="text" class="form-control" id="apellido" title="apellido" placeholder="Ingrese su apellido">
 			</div>
 			<div class="mb-3">
-				<label class="form-label">Correo electrónico</label>
+				<label class="form-label" for="correo_electronico">Correo electrónico</label>
 				<input type="text" class="form-control" id="correo_electronico" placeholder="Ingrese su correo electrónico">
 			</div>
 			<div class="mb-3">
-				<label class="form-label">Confirmación correo electrónico</label>
+				<label class="form-label" for="correo_electronico_confirmacion">Confirmación correo electrónico</label>
 				<input type="text" class="form-control" id="correo_electronico_confirmacion" placeholder="Confirme su correo">
 			</div>
 			<div class="mb-3">
-				<label class="form-label">País</label>
+				<label class="form-label" for="pais">País</label>
 				<input type="text" class="form-control" id="pais" placeholder="Ingrese su país de residencia">
 			</div>
 			<div class="mb-3">
-				<label class="form-label">Ciudad</label>
+				<label class="form-label" for="ciudad">Ciudad</label>
 				<input type="text" class="form-control" id="ciudad" placeholder="Ingrese la ciudad de residencia">
 			</div>
-			<button type="submit" class="btn btn-primary">Registrarme</button>
+			<button type="submit" class="btn btn-dark" >Registrarme</button>
         </form>
     </div>
     <script src="/node_modules/jquery/dist/jquery.js"></script>

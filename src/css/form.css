@@ -1,0 +1,48 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 50px;
+    background: fixed;
+    border-radius: 1px;
+    background-color:aquamarine;
+    border: none;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 50%
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+}
+
+a{
+    color: black;
+}
